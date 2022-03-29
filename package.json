@@ -1,0 +1,19 @@
+{
+  "name": "pretty-break",
+  "version": "1.0.0",
+  "description": "Break text in 2 lines or roughly equal length",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francescolorenzetti/pretty-break.git"
+  },
+  "author": "Francesco Lorenzetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francescolorenzetti/pretty-break/issues"
+  },
+  "homepage": "https://github.com/francescolorenzetti/pretty-break#readme"
+}
