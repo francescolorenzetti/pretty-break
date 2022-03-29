@@ -1,7 +1,7 @@
 {
   "name": "pretty-break",
   "version": "1.0.2",
-  "description": "Break text in 2 lines or roughly equal length",
+  "description": "When a title is too long to fit into its container, pretty-break breaks it nicely in to lines of roughly equal length.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
