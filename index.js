@@ -1,16 +1,16 @@
-export function prettyBreak(element, separator = '<br>') {
-  const text = element.textContent;
-  const elementWidth = element.scrollWidth;
+export function prettyBreak(domElement, separator = '<br>') {
+  const text = domElement.textContent;
+  const elementWidth = domElement.scrollWidth;
   // measure text width in one line
   const textWrapper = document.createElement('span');
   textWrapper.style.whiteSpace = 'nowrap';
   textWrapper.innerText = text;
-  element.innerHTML = textWrapper.outerHTML;
+  domElement.innerHTML = textWrapper.outerHTML;
   // check if text needs breaking
-  const textWidth = element.scrollWidth;
+  const textWidth = domElement.scrollWidth;
   // do nothing if text breaks in more than 2 lines
   if (textWidth / 2 > elementWidth) {
-    element.innerHTML = text;
+    domElement.innerHTML = text;
     return;
   }
   // break in the middle
@@ -25,9 +25,9 @@ export function prettyBreak(element, separator = '<br>') {
     }
     const s1 = text.substr(0, middle);
     const s2 = text.substr(middle + 1);
-    element.innerHTML = s1 + separator + ' ' + s2;
+    domElement.innerHTML = s1 + separator + ' ' + s2;
     return;
   }
   // no need for breaking
-  element.innerHTML = text;
+  domElement.innerHTML = text;
 }
