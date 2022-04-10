@@ -1,6 +1,6 @@
 {
   "name": "pretty-break",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "When a title is too long to fit into its container, pretty-break breaks it nicely in to lines of roughly equal length.",
   "main": "index.js",
   "scripts": {
