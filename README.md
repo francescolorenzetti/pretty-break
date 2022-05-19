@@ -19,7 +19,7 @@ npm i --save pretty-break
 ## Usage
 
 ```js
-import { prettybreak } from 'pretty-break';
+import { prettyBreak } from 'pretty-break';
 
 const targets = document.getElementsByClassName('break-me-nicely');
 
